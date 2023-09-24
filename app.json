@@ -22,7 +22,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.jhsol.myapp"
+      "package": "com.jhsol.myapp",
+      "permissions": ["CAMERA", "CAMERA_ROLL"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
