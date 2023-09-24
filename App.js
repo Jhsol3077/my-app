@@ -13,8 +13,8 @@ export default function App() {
   async function scheduleDailyNotification() {
     // 현재 시간과 매일 알림을 보낼 시간 설정 (24시간 형식)
     const trigger = {
-      hour: 15,
-      minute: 2,
+      hour: 10,
+      minute: 0,
       repeats: true, // 매일 반복
     };
 
